@@ -1,0 +1,148 @@
+body {
+  background-image: url('https://images.unsplash.com/photo-1677833034396-b962acd4c885?auto=format&fit=crop&q=80&w=2874&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+  background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin: 20px 0;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center; /* Centra el contenido del card */
+}
+
+.card-title {
+  font-size: 28px;
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.card-date {
+  font-size: 16px;
+}
+
+.card-temp {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.card-desc {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.card-img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.card-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card-info-item {
+  text-align: center;
+  flex: 1;
+  padding: 10px;
+  background-color: #444;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.temp {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Navbar Styles */
+.navbar {
+  .navbar h3 {
+    background-color: transparent;
+  }
+  
+}
+
+.navbar h3 {
+  background-color: transparent;
+  font-size: 36px;
+
+
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-family: 'Varela Round', sans-serif;
+}
+
+
+
+
+
+/* Form Styles */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  background-color: #33333381;
+  padding: 20px;
+  border-radius: 10px;
+ 
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
+  border: none;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+  background-color: #333;
+}
+
+/* Card Container Styles */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
